@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva Viagem</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+</head>
+<body>
+   
+
+    <form id="reserva">
+        <h1>Reserva de Viagem</h1>
+        <input type="text" id="nome" required placeholder="Digite seu nome completo ">
+           <br>
+           <input type="date" id="data" required>
+           <br>
+    
+
+    <select id="viagem" required>
+    <option value=""Selecione>Selecione o destino</option>
+    <option value="russia">Russia</option>
+    <option value="Estados Unidos">Estados Unidos</option>
+    <option value="japao">Japão</option>
+    <option value="mexico">Mexico</option>
+    </select>
+
+    <button  id="button" type="submit"> Verificar Reserva</button>
+
+    <div id="mensagem"></div>
+</form>
+
+</body>
+</html>

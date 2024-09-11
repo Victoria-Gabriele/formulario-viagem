@@ -1,0 +1,88 @@
+
+/* Reseta alguns estilos padrões do navegador */
+body, h1, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estiliza o corpo da página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Estiliza o título da página */
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Estiliza o formulário */
+form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Estiliza os campos de entrada */
+input[type="text"],
+input[type="date"],
+select {
+    width: calc(100% - 22px);
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+select:focus {
+    border-color: #c242df;
+    box-shadow: 0 0 8px rgba(200, 27, 151, 0.25);
+    outline: none;
+}
+
+/* Estiliza o botão de submit */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #e201bd;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    background-color: #cc3c8b;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+    background-color: #ca7bc6;
+}
+
+/* Estiliza a mensagem */
+#mensagem {
+    margin-top: 20px;
+    text-align: center;
+    color: #000000;
+    font-size: 16px;
+}
